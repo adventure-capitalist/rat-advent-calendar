@@ -29,7 +29,7 @@ class App extends Component {
   ] }
   
   componentDidMount() {
-    const retrievedSchema = JSON.parse(localStorage.getItem("statexxx"));
+    const retrievedSchema = JSON.parse(localStorage.getItem("state"));
     if (retrievedSchema !== null) {
       this.setState({schema : retrievedSchema});
     }
@@ -60,7 +60,7 @@ class App extends Component {
     schema[index].clicked = true;
     this.setState({schema});
     const storedSchema = JSON.stringify(schema);
-    localStorage.setItem("statexxx", storedSchema);
+    localStorage.setItem("state", storedSchema);
     //const retrievedSchema = JSON.parse(localStorage.getItem("state"));
     //console.log(retrievedSchema);
 
