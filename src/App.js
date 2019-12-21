@@ -65,7 +65,7 @@ class App extends Component {
     //console.log(retrievedSchema);
 
     if(this.state.schema[index].day > date.getDate()) {
-    alert('Peeking ahead? Tsk tsk! There might be on the naughty list for you yet...');
+    alert('Peeking ahead? Tsk tsk! There might be room on the naughty list for you yet...');
     }
   }
 
