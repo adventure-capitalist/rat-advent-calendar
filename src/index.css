@@ -10,6 +10,11 @@ body {
 h1 {
   color: black;
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -67,3 +72,29 @@ main {
 p {
   text-align: center;
 }
+
+@media only screen and (max-width: 959px) {
+.Calendar {
+  width: 95%;
+}
+.window {
+  width: 30%;
+}
+.open-window, .closed-window {
+  width: 25vw;
+  height: 25vw;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .Calendar {
+    width: 100%;
+  }
+  .window {
+    width: 60%;
+  }
+  .open-window, .closed-window {
+    width: 50vw;
+    height: 50vw;
+  }
+  }
