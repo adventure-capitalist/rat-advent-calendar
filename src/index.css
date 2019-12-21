@@ -31,7 +31,7 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 55%;
+  width: 87%;
   justify-content: center;
 }
 .window {
@@ -50,8 +50,8 @@ main {
 }
 .open-window {
   object-fit: cover;
-  width: 10vw;
-  height: 10vw;
+  width: 15vw;
+  height: 15vw;
   opacity: 1;
   border: solid;
   border-width: 2px;
@@ -60,8 +60,8 @@ main {
 
 .closed-window {
   object-fit: cover;
-  width: 10vw;
-  height: 10vw;
+  width: 15vw;
+  height: 15vw;
   opacity: 0;
   border: solid;
   border-width: 2px;
@@ -75,14 +75,14 @@ p {
 
 @media only screen and (max-width: 959px) {
 .Calendar {
-  width: 95%;
+  width: 80%;
 }
 .window {
   width: 30%;
 }
 .open-window, .closed-window {
-  width: 25vw;
-  height: 25vw;
+  width: 20vw;
+  height: 20vw;
 }
 }
 
